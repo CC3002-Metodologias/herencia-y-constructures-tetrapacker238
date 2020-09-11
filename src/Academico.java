@@ -4,6 +4,7 @@ public class Academico extends Persona{
         super(ocupacionA, nombreA, edadA);
         this.paper = paper;
     }
+    @Override
     public void comer(){
         super.comer();
     }
